@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Web Scraper</h1>
+    <form id="scrapeForm">
+        <label for="urlInput">Enter URL to Scrape:</label>
+        <input type="url" id="urlInput" name="url" required>
+        <button type="submit">Scrape</button>
+    </form>
+    <div id="result">
+        <!-- Messages will be displayed here -->
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
