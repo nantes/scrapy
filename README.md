@@ -27,10 +27,6 @@ A simple web application that allows users to enter a URL, scrape its HTML conte
 ## Setup and Installation
 
 1.  **Clone the repository (if applicable) or download the files.**
-    ```bash
-    # git clone <repository_url>
-    # cd <repository_directory>
-    ```
 
 2.  **Create a virtual environment (recommended):**
     ```bash
